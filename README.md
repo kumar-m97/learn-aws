@@ -26,6 +26,39 @@ Does not match rule 100
 Matches rule 200  
 ❌ DENIED  
 
-<img width="1040" height="329" alt="image" src="https://github.com/user-attachments/assets/69c1c3f2-cc15-4964-96d6-b73a4034774d" />
+<img width="1040" height="329" alt="image" src="https://github.com/user-attachments/assets/69c1c3f2-cc15-4964-96d6-b73a4034774d" />  
+
+## VPC Peering Setup  
+Scenario: Connect VPC-A (10.0.0.0/16) with VPC-B (172.16.0.0/16)  
+
+**Steps:**
+Go to VPC Dashboard → Click "Peering Connections"  
+Click "Create peering connection"  
+Name: e.g., "VPC-A-to-VPC-B-Peering"  
+VPC (Requester): Select VPC-A  
+Account: My account (or "Another account" if different)  
+Region: This region (or "Another region" for cross-region)  
+VPC (Accepter): Select VPC-B  
+
+Click "Create peering connection"  
+Accept the peering request:  
+The connection will be in "Pending Acceptance" state  
+Select the peering connection → Click "Actions" → "Accept request"  
+
+**Update Route Tables (Critical step!):**   
+In VPC-A's route table:  
+Go to "Route Tables" → Select VPC-A's route table  
+Click "Routes" tab → "Edit routes" → "Add route"  
+Destination: 172.16.0.0/16 (VPC-B's CIDR)  
+Target: Select the peering connection  
+Save  
+
+**In VPC-B's route table:**  
+Select VPC-B's route table → "Edit routes" → "Add route"  
+Destination: 10.0.0.0/16 (VPC-A's CIDR)  
+Target: Select the same peering connection  
+Save  
+
+**Update Security Groups:** Ensure security groups allow traffic from the other VPC's CIDR blocks  
 
 
