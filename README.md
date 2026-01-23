@@ -116,6 +116,11 @@ Uses Private Link Service
 Exposes service via NLB  
 <img width="439" height="300" alt="image" src="https://github.com/user-attachments/assets/c2d52040-c531-45f1-9bc3-0d38616451e5" />  
 
+## NAT Instance and its condifuration  
+A NAT Instance is an EC2 instance acting as a NAT device to allow private subnets to access the internet  
+Not much used now. Use Nat Gatways instead.  
+
+
 
 
 
