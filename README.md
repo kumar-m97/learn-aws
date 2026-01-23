@@ -80,7 +80,23 @@ Save
 
 
 **Route Propagation use while setting up the routes**:  
-<img width="1047" height="496" alt="image" src="https://github.com/user-attachments/assets/03550374-88e6-493f-bd57-cb4a2238fe3c" />
+<img width="1047" height="496" alt="image" src="https://github.com/user-attachments/assets/03550374-88e6-493f-bd57-cb4a2238fe3c" />  
+
+## Client VPN Setup  
+--> It is used to provide individual remote user acess to AWS resources  
+**Laptop → VPN → VPC (private access)**  
+<img width="542" height="301" alt="image" src="https://github.com/user-attachments/assets/ac1fb309-0ac5-4083-a5c2-c013a2125206" />  
+
+## AWS Direct Connect  
+<img width="1055" height="199" alt="image" src="https://github.com/user-attachments/assets/fba4d51c-15bc-400b-bf04-b6b4cb5cce9f" />  
+<img width="1041" height="177" alt="image" src="https://github.com/user-attachments/assets/b3e8d4b6-632b-4a3d-9043-cc92c09e63d8" />  
+<img width="503" height="204" alt="image" src="https://github.com/user-attachments/assets/56f62fae-22a0-4946-8ee1-00eb15b10f81" />  
+
+**## VPC Endpoints**
+
+
+
+
 
 
 
