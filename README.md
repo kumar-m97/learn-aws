@@ -92,7 +92,32 @@ Save
 <img width="1041" height="177" alt="image" src="https://github.com/user-attachments/assets/b3e8d4b6-632b-4a3d-9043-cc92c09e63d8" />  
 <img width="503" height="204" alt="image" src="https://github.com/user-attachments/assets/56f62fae-22a0-4946-8ee1-00eb15b10f81" />  
 
-**## VPC Endpoints**
+## VPC Endpoints  
+--> VPC Endpoints allow your vpc to privately connect to AWS services without internet,NAT, or IGW  
+
+### Two types of VPC Endpoints:  
+**1. Gatewway endpoints:**  
+Used only for: S3,DynamoDB  
+
+**2. Interface Endpoints(Private Endpoints):**
+Used for most AWS Services  
+
+
+## AWS Private Link  
+PrivateLink lets you expose or consume services privately across VPCs and accounts.  
+<img width="1342" height="766" alt="image" src="https://github.com/user-attachments/assets/9f47d452-5f94-4cac-88e1-9aa65983a8d5" />  
+### -->Two sides of PrivateLink
+**🔹 Service Consumer** 
+Uses Interface Endpoint/Private Endpoint  
+Connects privately to a service  
+
+**🔹 Service Provider** 
+Uses Private Link Service  
+Exposes service via NLB  
+<img width="439" height="300" alt="image" src="https://github.com/user-attachments/assets/c2d52040-c531-45f1-9bc3-0d38616451e5" />  
+
+
+
 
 
 
