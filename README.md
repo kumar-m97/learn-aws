@@ -75,7 +75,13 @@ Save
 <img width="1070" height="314" alt="image" src="https://github.com/user-attachments/assets/c0e0a5ae-169e-4d46-93bf-df2ea5984229" />  
 <img width="624" height="215" alt="image" src="https://github.com/user-attachments/assets/f048a423-6d48-47e0-8316-bf719c41111b" />  
 <img width="1035" height="445" alt="image" src="https://github.com/user-attachments/assets/ee638dbe-a269-4946-b87d-65c8b2810138" />  
-<img width="785" height="266" alt="image" src="https://github.com/user-attachments/assets/e2964858-42a6-4e66-a215-36f36597c525" />
+<img width="976" height="302" alt="image" src="https://github.com/user-attachments/assets/5a0f15dd-fa51-4aa1-aa2a-01261b3cc585" />  
+<img width="785" height="266" alt="image" src="https://github.com/user-attachments/assets/e2964858-42a6-4e66-a215-36f36597c525" />  
+
+
+**Route Propagation use while setting up the routes**:  
+<img width="1047" height="496" alt="image" src="https://github.com/user-attachments/assets/03550374-88e6-493f-bd57-cb4a2238fe3c" />
+
 
 
 
