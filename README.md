@@ -61,4 +61,23 @@ Save
 
 **Update Security Groups:** Ensure security groups allow traffic from the other VPC's CIDR blocks  
 
+## Transit Gateway  
+
+
+## Virtual Private Gateway  
+--> Connects on-premise datacenter to AWS resources using VPG and VPN  
+<img width="374" height="265" alt="image" src="https://github.com/user-attachments/assets/00bd8bc8-97e1-4ca9-9937-0b76546f58cc" />  
+<img width="533" height="266" alt="image" src="https://github.com/user-attachments/assets/4a5341e0-c1b3-4f7e-9fd3-7cb954f1dc6b" />  
+<img width="1041" height="581" alt="image" src="https://github.com/user-attachments/assets/cb817c0a-a79e-4a42-bebb-5490519c5dfd" />  
+<img width="919" height="369" alt="image" src="https://github.com/user-attachments/assets/e2ed196e-b03e-468a-b02a-5ad30169fc4c" />  
+<img width="1001" height="549" alt="image" src="https://github.com/user-attachments/assets/a2075e18-3bc9-4628-a310-cfecde3a01a9" />  
+<img width="1108" height="383" alt="image" src="https://github.com/user-attachments/assets/3a81fc89-f08f-40a1-85bf-ca7b24696769" />  
+
+
+
+
+
+
+
+
 
