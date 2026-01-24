@@ -104,17 +104,17 @@ Used for most AWS Services
 
 
 ## AWS Private Link  
-PrivateLink lets you expose or consume services privately across VPCs and accounts.  
+To enable a private connection to services hosted in different VPC within the same AWS account or in different AWS accounts, we use AWS PrivateLink. It enables us to connect our VPC privately to supported AWS services, services hosted by other AWS accounts (VPC endpoint services), and supported AWS Marketplace partner services. We need not to use an Internet Gateway, NAT device, public IP address, AWS Direct Connect connection, or AWS Site-to-Site VPN connection to communicate with the service.    
 <img width="1342" height="766" alt="image" src="https://github.com/user-attachments/assets/9f47d452-5f94-4cac-88e1-9aa65983a8d5" />  
 ### -->Two sides of PrivateLink
-**🔹 Service Consumer** 
-Uses Interface Endpoint/Private Endpoint  
-Connects privately to a service  
+**VPC Endpoint**  
+This is created in the consumers account to have an endpoint for VPC to enable a private connection to a service.  
+**VPC Endpoint Service**  
+This is created in the producers account where you have your service up and running. Other AWS principals can access this service using VPC endpoints.  
 
-**🔹 Service Provider** 
-Uses Private Link Service  
-Exposes service via NLB  
 <img width="439" height="300" alt="image" src="https://github.com/user-attachments/assets/c2d52040-c531-45f1-9bc3-0d38616451e5" />  
+For more infor refer  
+https://medium.com/@knoldus/how-to-use-aws-privatelink-via-aws-console-38720c4dffa5
 
 ## NAT Instance and its condifuration  
 A NAT Instance is an EC2 instance acting as a NAT device to allow private subnets to access the internet  
