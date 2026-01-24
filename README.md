@@ -113,6 +113,8 @@ This is created in the consumers account to have an endpoint for VPC to enable a
 This is created in the producers account where you have your service up and running. Other AWS principals can access this service using VPC endpoints.  
 
 <img width="439" height="300" alt="image" src="https://github.com/user-attachments/assets/c2d52040-c531-45f1-9bc3-0d38616451e5" />  
+<img width="875" height="441" alt="image" src="https://github.com/user-attachments/assets/22ce0a61-5595-4455-b520-f1c727004f56" />  
+
 For more infor refer  
 https://medium.com/@knoldus/how-to-use-aws-privatelink-via-aws-console-38720c4dffa5
 
