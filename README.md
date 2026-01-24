@@ -61,7 +61,30 @@ Save
 
 **Update Security Groups:** Ensure security groups allow traffic from the other VPC's CIDR blocks  
 
-## Transit Gateway  
+## Transit Gateway 
+Think of Transit Gateway (TGW) as a cloud router. It connects multiple VPC's, VPN, DX cenrtal via a hub and spoc model within or cross aws acounts.  
+<img width="1281" height="892" alt="image" src="https://github.com/user-attachments/assets/fbf4ac75-55a0-418f-adc7-3cb13b90c2a6" />  
+<img width="819" height="819" alt="image" src="https://github.com/user-attachments/assets/2ec96547-5ea9-4c8e-9311-95c0af9279c5" />  
+<img width="1035" height="435" alt="image" src="https://github.com/user-attachments/assets/ee5a0c54-eda2-4ee3-9b3b-a5c80f16264c" />  
+<img width="848" height="476" alt="image" src="https://github.com/user-attachments/assets/7c285b78-9bb4-45af-96cb-ae10ff4f12be" />  
+
+**--> To configure Transit gateway cross acount follow the below steps after creating TGW:**  
+<img width="1043" height="704" alt="image" src="https://github.com/user-attachments/assets/00f46197-ab0d-437f-8d06-8a1fa3fe7d2c" />  
+<img width="636" height="177" alt="image" src="https://github.com/user-attachments/assets/e344073a-f817-4930-87ec-8e0c7e48c041" />  
+<img width="1042" height="707" alt="image" src="https://github.com/user-attachments/assets/301511c9-7a7a-466a-81c3-c045dc145730" />  
+<img width="1010" height="372" alt="image" src="https://github.com/user-attachments/assets/6a0ee617-b8d2-474a-bc27-d95c300bdb0d" />  
+<img width="1049" height="876" alt="image" src="https://github.com/user-attachments/assets/168ec845-9a1b-4493-a873-eac72df223db" />  
+<img width="1030" height="758" alt="image" src="https://github.com/user-attachments/assets/ee066c69-7ea4-4773-a55b-689c3df7ce32" />  
+<img width="1037" height="767" alt="image" src="https://github.com/user-attachments/assets/3c4805dd-e27b-4c07-a917-6f5990f8c267" />
+
+
+
+
+
+
+
+
+
 
 
 ## Virtual Private Gateway  
